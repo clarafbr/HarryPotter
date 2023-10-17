@@ -11,6 +11,7 @@ body{
     border: 2px solid rgb(0, 0, 0);
     width: 900px;
     background-color: var(--black);
+    margin: 1rem auto;
 }
 .nav{
     padding: 0.8rem;
@@ -20,6 +21,12 @@ body{
     text-decoration: nome;
     color: var(--black);
     font-weight: bolder;
+    trasition: 1s;
+}
+a:houver{
+    backgroud-color: rgb(245, 243, 220);
+    font-size: 20px;
+    color: #e4ac03;
 }
 
 article{
