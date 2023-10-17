@@ -1,0 +1,38 @@
+:root{
+    --black:rgba(255, 255, 255, 0.949);
+    --gray:#e4ac03;
+    --white:rgb(0, 0, 0);
+}
+
+body{
+    background-color: var(--black);
+}
+.container{
+    border: 2px solid rgb(0, 0, 0);
+    width: 900px;
+    background-color: var(--black);
+}
+.nav{
+    padding: 0.8rem;
+    background-color: var(--gray);
+}
+.nav-link{
+    text-decoration: nome;
+    color: var(--black);
+    font-weight: bolder;
+}
+
+article{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+footer{
+    text-align: center;
+    color: var(--white);
+}
+
+header{
+    text-align: center;
+    
+}
